@@ -1,0 +1,4 @@
+﻿  connect4Attempt.cpp
+C:\Users\Alex\source\repos\connect4Attempt\connect4Attempt\connect4Attempt.cpp(21,57): warning C4305: 'initializing': truncation from 'double' to 'const float'
+C:\Users\Alex\source\repos\connect4Attempt\connect4Attempt\connect4Attempt.cpp(29,33): warning C4305: 'argument': truncation from 'double' to 'float'
+  connect4Attempt.vcxproj -> C:\Users\Alex\source\repos\connect4Attempt\Debug\connect4Attempt.exe
