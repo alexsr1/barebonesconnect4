@@ -141,12 +141,8 @@ sf::Vector2i insertToken(Colors( & board)[ROWS][COLUMNS], size_t selectIdx, Colo
 }
 
 int main() {
-   sf::CircleShape shape(100.f);
-   shape.setFillColor(sf::Color::Green);
-
    Colors connect4[ROWS][COLUMNS] = {};
-
-
+   
    size_t indexSelect = 0;
    bool focused = true;
    Colors playerTurn = Colors::Red;
