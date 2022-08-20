@@ -15,7 +15,7 @@ const size_t ROWS = 6,
 const size_t WINDOWX = 800,
    WINDOWY = 800;
 
-sf::RenderWindow window(sf::VideoMode(WINDOWX, WINDOWY), "SFML works!");
+sf::RenderWindow window(sf::VideoMode(WINDOWX, WINDOWY), "Barebones Connect 4");
 
 void drawConnect4(const Colors( & board)[ROWS][COLUMNS], size_t selectIdx) {
    constexpr float radius = WINDOWX / (COLUMNS + .6) / 2;
